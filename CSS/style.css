@@ -1,0 +1,11 @@
+:root {
+    --primary: #6209DB;
+    --dark: #000000;
+    --light: #ffffff;
+    --grey: #f5f5f5;
+}
+
+.img-blur {
+    filter: blur(4px); /* Ajusta el valor según el nivel de desenfoque deseado */
+  }
+  
