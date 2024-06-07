@@ -31,43 +31,56 @@
                             <a class="nav-link" aria-current="page" href="index.html">Iniciar Sesión</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Registrarse</a>
+                            <a class="nav-link" href="#">Dirigirse a la Tienda</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Content fin menu -->
-
-        <!-- Content img -->
-        <div class="container">
-            <div class="card">
-                <img src="img/img7.jpeg" class="img-fluid img-blur" alt="...">
-                <div class="card-img-overlay">
-                    <h1 class="card-title text-center py-2"><strong>Bienvenido a la Tienda JS</strong></h1>
-                    <h3 class="card-title text-center py-2"><strong>Iniciar Sesión</strong></h3>
-
-                    <!-- Formulario inicio sesion -->
-                    <form>
-                        <div class="mb-3 py-5">
-                            <label for="exampleInputEmail1" class="form-label"><strong>Email</strong></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label"><strong>Contraseña</strong></label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
+              
+                    <!-- Card inicio sesion -->
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/admin.webp" class="img-fluid" alt="...">
+              </div>
+              <div class="col-md-8 text-center">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Bienvenido a Tienda JS</strong></h5>
+                  <p class="card-text py-2">Inicia Sesión para ingresar al panel administrativo.</p>
+                  
+                  <!-- Formulario inicio sesion -->
+                  <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label py-1"><strong>Email</strong></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><strong>Contraseña</strong></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <br>
                         <a href="#" class="primary">Recuperar Contraseña</a>
-                    </form>
-                    <button type="button" class="btn btn-primary">Google</button>
-                    <button type="button" class="btn btn-primary">Facebook</button>
-                    <!-- Fin Formulario inicio sesion -->
-
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-danger">Iniciar Sesión</button>
+                    </div>
+                    
+                </form>
+                <p class="card-text">Acceder con:</p>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button"><img src="img/facebook.webp" alt="Facebook Logo" class="mr-2" style="height: 20px;">Facebook</button>
+                    <button class="btn btn-outline-dark" type="button"><img src="img/google.png" alt="Google Logo" class="mr-2" style="height: 20px;">Google</button>
+                  </div>
+                
+                  <!-- Fin Formulario inicio sesion -->
+                
+                <!-- Fin Card inicio sesion -->
                 </div>
+              </div>
             </div>
-        </div>
-        <!-- Content fin img -->
+          </div>
 
         <!-- Content footer -->
         <footer class="bg-dark text-light text-center py-2">
